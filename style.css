@@ -1,0 +1,77 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@font-face {
+    font-family: 'age';
+    src: url('space\ age.ttf');
+}
+
+h1 {
+  font-size: 48px;
+  margin-top: 50px;
+  font-family: age;
+}
+
+button {
+  font-size: 24px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px;
+}
+
+li button {
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #289127;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-family: age;
+}
+
+.tab button:hover {
+  background-color: #1d7242;
+}
+
+.tab button.active {
+  background-color: #026600;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
