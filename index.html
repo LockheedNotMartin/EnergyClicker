@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Energy Clicker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Energy Clicker</h1>
+    <p>Power: <span id="points">0</span></p>
+    <p>Power per second: <span id="second">0</span></p>
+    <button id="clicker">Turn Crank Generator!⚡</button>
+    <div class="tab">
+      <button class="tablinks" onclick="openTab(event, 'upgrades')">Generators</button>
+      <button class="tablinks" onclick="openTab(event, 'science')">Science</button>
+      <button class="tablinks" onclick="openTab(event, 'market')">Market</button>
+    </div>
+    <div id="upgrades" class="tabcontent">
+      <ul>
+        <li><button class="upgrade-button" id="upgrade1">Solar Panel (<span id="u1">10</span> Energy) Owned: <span id="u1n">0</span></button></li>
+        <li><button class="upgrade-button" id="upgrade2" hidden>Wind Turbine (<span id="u2">500</span> Energy) Owned: <span id="u2n">0</span></button></li>
+        <li><button class="upgrade-button" id="upgrade3" hidden>Natural Gas (<span id="u3">50000</span> Energy) Owned: <span id="u3n">0</span></button></li>
+        <li><button class="upgrade-button" id="upgrade4" hidden>Geothermal Power (<span id="u4">7500000</span> Energy) Owned: <span id="u4n">0</span></button></li>
+        <li><button class="upgrade-button" id="upgrade5" hidden>Hydro Power (<span id="u5">1500000000</span> Energy) Owned: <span id="u5n">0</span></button></li>
+        <li><button class="upgrade-button" id="upgrade6" hidden>Oil Power (<span id="u6">375000000000</span> Energy) Owned: <span id="u6n">0</span></button></li>
+        <li><button class="upgrade-button" id="upgrade7" hidden>Coal Power (<span id="u7">112500000000000</span> Energy) Owned: <span id="u7n">0</span></button></li>
+        <li><button class="upgrade-button" id="upgrade8" hidden>Nuclear Power (<span id="u8">39375000000000000</span> Energy) Owned: <span id="u8n">0</span></button></li>
+      </ul>
+    </div>
+    <div class = "science" class="tabcontent">
+      <p>Coming Soon™</p>
+    </div>
+    <div class = "market" class="tabcontent">
+      <p>Coming Soon™</p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+  <script src="tab.js"></script>
+</body>
+
+</html>
