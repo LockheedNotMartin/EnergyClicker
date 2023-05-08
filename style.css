@@ -9,14 +9,15 @@ html {
 }
 
 @font-face {
-    font-family: 'age';
-    src: url('space\ age.ttf');
+  font-family: 'age';
+  src: url('space\ age.ttf');
 }
 
 h1 {
   font-size: 48px;
   margin-top: 50px;
   font-family: age;
+  color: white;
 }
 
 button {
@@ -78,4 +79,8 @@ li button {
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+}
+
+p {
+  color: white;
 }
