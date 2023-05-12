@@ -1,5 +1,7 @@
 // Set starting values
 let energyPerTick = 0;
+let money = 0;
+let moneyPerHour = parseInt(localStorage.getItem('money')) || 0;;
 let points = parseInt(localStorage.getItem('points')) || 0;
 let lifetimePoints = parseInt(localStorage.getItem('lifetimePoints')) || 0;
 let clickValue = parseInt(localStorage.getItem('clickValue')) || 1;
